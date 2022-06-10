@@ -1,10 +1,10 @@
 package trocaFigurinha;
 
 public class Pessoa {
-	// Criando atributos para a classe 
+	// atributos 
 	String nome;
 	int numFigurinhas;
-	// O atributo x serve para controlar a mensagem que será mostrada
+
 	int x=1;
 	
 	// Metodo que recebe as figurinhas
