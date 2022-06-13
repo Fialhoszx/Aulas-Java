@@ -1,9 +1,9 @@
-// A classe quadrado implementa AreaCalculavel, pois os metodos dela se aplicam a essa
+
 public class Quadrado implements AreaCalculavel{
 	// Declarando variaveis
 	double x;
 	
-	// O metodo calcularArea foi sobrescrito a fim de passar um calculo que se aplica apenas a classe quadrado
+
 	@Override
 	public double calcularArea() {
 		return x *= x;
