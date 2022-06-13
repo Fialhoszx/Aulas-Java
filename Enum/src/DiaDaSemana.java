@@ -1,6 +1,6 @@
 // Serve para criar uma lista
 public enum DiaDaSemana {
-	// Aqui foi instanciada uma lista de dias da semana que recebe um inteiro como valor
+	// lista de dias da semana = inteiro 
 	DOMINGO(1),
 	SEGUNDA(2),
 	TERCA(3),
@@ -9,15 +9,14 @@ public enum DiaDaSemana {
 	SEXTA(6),
 	SABADO(7);
 
-	// Aqui foi atribuida uma variavel para atribuir um numero para os dias
+
 	private int num;
-	
-	// Chamado o metodo getNum que retorna a variavel num
+	//getNum retorna num 
 	public int getNum() {
 		return num;
 	}
 	
-	// Aqui foi adicionado um construtor privado 
+	//construtor privado 
 	private DiaDaSemana(int num) {
 		this.num = num;
 	}
