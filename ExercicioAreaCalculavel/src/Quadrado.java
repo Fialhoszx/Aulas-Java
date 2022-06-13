@@ -9,7 +9,7 @@ public class Quadrado implements AreaCalculavel{
 		return x *= x;
 	}
 
-	// Aqui e um metodo para imprimir a area na tela
+
 	public void mostrarArea() {
 		System.out.println("A área do quadrado é " + calcularArea() + " m2");
 	}
