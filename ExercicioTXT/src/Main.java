@@ -18,10 +18,8 @@ public class Main {
 		texto += entrada.nextLine(); 
 		entrada.close();
 		
-		// O try serve para tentar executar um codigo, e usado quando o codigo pode danificar um arquivo
-		// Caso de algum erro ele nao termina de executar o codigo e nada e perdido
+	
 		// O BufferedWrite e um metodo do proprio Java para escrever em arquivos de texto
-		// Nesse caso foi instanciado o objeto escrever do tipo Buffered que virou um arquivo de texto
 		try (BufferedWriter escrever = new BufferedWriter(new FileWriter("texto.txt"))){
 			// O arquivo recebe o texto digitado pelo usuario na variavel texto, declarada no inicio do codigo
 			escrever.write(texto);
@@ -32,7 +30,6 @@ public class Main {
 			// Foram declaradas duas strings para auxiliar a ler linha do arquivo
 			String line;
 			String string="";
-			// O codigo abaixo representa que enquanto uma linha tiver conteudo ele vai ler a linha e pular um espaco para a proxima
 			while((line = ler.readLine()) != null) {
 				 string = string + "\n" + line;
 			}
